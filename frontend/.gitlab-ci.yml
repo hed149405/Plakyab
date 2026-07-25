@@ -1,0 +1,24 @@
+build:
+    stages:
+    - test
+    - build
+
+test:flutter:
+    stage: test
+    script:
+        - flutter test --coverage
+
+build:android:
+    stage: build
+    script:
+        - flutter build apk --release
+
+build:ios:
+    stage: build
+    script:
+        - flutter build ios --release
+
+build:web:
+    stage: build
+    script:
+        - flutter build web --release
