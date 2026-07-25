@@ -1,54 +1,130 @@
-# http://www.gnu.org/software/automake
+# Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/pip-wheel-metadata/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+backend/.env
+backend/.env.local
+backend/.env.*.local
+backend/venv/
+backend/ENV/
+backend/env/
+backend/.venv
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/.hypothesis/
+backend/*.db
+backend/*.sqlite
+backend/logs/
+backend/*.log
+backend/app/logs/
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
-.deps/
-.dirstamp
+# Frontend
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/coverage/
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/ServiceDefinitions.json
+frontend/ios/.symlinks/
+frontend/ios/.generated/
+frontend/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+frontend/android/.gradle
+frontend/android/captures/
+frontend/android/gradlew.bat
+frontend/android/gradle-wrapper.jar
+frontend/android/gradle-wrapper.properties
+frontend/web/dart_service_worker.js
+frontend/.env
 
-# http://www.gnu.org/software/autoconf
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+.DS_Store
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.cache
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 
-# https://www.gnu.org/software/libtool/
+# Docker
+.docker/
+docker-compose.override.yml
 
-/libtool
-/ltmain.sh
-.libs/
+# Database
+*.sqlite
+*.db
+*.sqlite3
 
-# http://www.gnu.org/software/texinfo
+# Logs
+*.log
+logs/
 
-/texinfo.tex
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-# http://www.gnu.org/software/m4/
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
 
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
+# Environment files
+.env
+.env.local
+.env.*.local
 
-# Generated Makefile
-# (meta build system like autotools,
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+# Node (if used for build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Misc
+*.bak
+*.swp
+*.swo
+*~
+.~*
